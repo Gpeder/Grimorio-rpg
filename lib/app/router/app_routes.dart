@@ -1,0 +1,29 @@
+abstract final class AppRoutes {
+  static const root = '/';
+  static const home = '/home';
+  static const homeName = 'home';
+  static const characters = '/characters';
+  static const charactersName = 'characters';
+  static const characterCreate = '/characters/create';
+  static const characterCreateName = 'characterCreate';
+  static const characterDetails = '/characters/:id';
+  static const characterDetailsName = 'characterDetails';
+  static const compendium = '/compendium';
+  static const compendiumName = 'compendium';
+  static const classes = '/compendium/classes';
+  static const classesName = 'classes';
+  static const subclasses = '/compendium/classes/:classId/subclasses';
+  static const subclassesName = 'subclasses';
+  static const spells = '/compendium/spells';
+  static const spellsName = 'spells';
+  static const bestiary = '/compendium/bestiary';
+  static const bestiaryName = 'bestiary';
+  static const inventory = '/inventory';
+  static const inventoryName = 'inventory';
+  static const campaigns = '/campaigns';
+  static const campaignsName = 'campaigns';
+  static const dice = '/dice';
+  static const diceName = 'dice';
+  static const settings = '/settings';
+  static const settingsName = 'settings';
+}

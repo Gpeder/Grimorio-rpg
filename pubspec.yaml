@@ -1,0 +1,71 @@
+name: rpg
+description: "Gerenciador de RPG de mesa Grimório RPG."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.4.3
+  go_router: ^18.1.0
+  dio: ^5.11.1
+  drift: ^2.35.2
+  drift_flutter: ^0.3.1
+  google_fonts: ^9.0.0
+  hugeicons: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  drift_dev: ^2.35.1
+  build_runner: ^2.16.2
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+    - images/acessorios/
+    - images/armaduras/
+    - images/armaduras/leve/
+    - images/armaduras/medio/
+    - images/armaduras/pesado/
+    - images/armas/
+    - images/artifice/
+    - images/barbaro/
+    - images/bardo/
+    - images/bruxo/
+    - images/classes/
+    - images/clerico/
+    - images/druida/
+    - images/feiticeiro/
+    - images/gerais/
+    - images/guerreiro/
+    - images/itens_menu/
+    - images/mago/
+    - images/monge/
+    - images/paladino/
+    - images/patrulheiro/
+    - images/pocoes/
+    - images/rougue/
+    - images/species/
+    - images/logo/
+    - images/bg/bg.jpg
+    - images/bg/bg_1.jpg
+    - images/bg/bg_2.jpg
+    - images/bg/bg_3.jpg
+    - images/bg/bg_4.jpg
+    - images/bg/bg_5.jpg
+    - images/bg/bg_6.jpg
+    - images/bg/bg_7.jpg
+    - images/bg/bg_8.jpg
+    - images/bg/castelo.jpg
